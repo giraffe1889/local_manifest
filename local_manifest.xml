@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
 <manifest>
-
- <!-- Trees -->
- <project path="device/oneplus/instantnoodle" name="PixelExperience-Devices/device_oneplus_instantnoodle.git" remote="github" revision="eleven" />
- <project path="device/oneplus/instantnoodle" name="PixelExperience-Devices/device_oneplus_instantnoodle.git" remote="github" revision="eleven" />
- <project path="vendor/oneplus/instantnoodle" name="vendor_oneplus_instantnoodle.git" remote="gitlab" revision="eleven" />
- <project path="vendor/oneplus/sm8250-common" name="vendor_oneplus_sm8250-common.git" remote="gitlab" revision="eleven" />
- <project path="kernel/oneplus/sm8250" name="PixelExperience-Devices/kernel_oneplus_sm8250.git" remote="github" revision="twelve-wip" />
+  <remote fetch="https://github.com/" name="github" />
+  <project name="PixelExperience-Devices/device_oneplus_instantnoodle.git" path="device/oneplus/instantnoole" remote="github" revision="eleven" />
+   <project name="PixelExperience-Devices/device_oneplus_sm8250-common.git" path="device/oneplus/sm8250-common" remote="github" revision="twelve-wip" />
+    <project name="PixelExperience-Devices/device_oneplus_sm8250-common.git" path="device/oneplus/sm8250-common" remote="github" revision="twelve-wip" />
  
-</manifest>
+ 
+   <remote fetch="https://github.com/" name="github" />
+  <project name="PixelExperience/hardware_oneplus" path="hardware/oneplus" remote="github" revision="twelve" />
+ 
+ 
+ 
+  <remote fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" name="vendor-blobs" review="https://gitlab.pixelexperience.org" />
+  <project name="vendor_oneplus_sm8250-common" path="vendor/oneplus/sm8250-common" remote="vendor-blobs" revision="eleven" />
+   <project name="vendor_oneplus_instantnoodle" path="vendor/oneplus/instantnoole" remote="vendor-blobs" revision="eleven" />
+ </manifest>
