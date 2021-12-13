@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="device/10or/G" name="PixelExperience-Devices/device_oneplus_instantnoodle.git" remote="github" revision="eleven" />
+ <project path="device/10or/oneplus/instantnoodle" name="PixelExperience-Devices/device_oneplus_instantnoodle.git" remote="github" revision="eleven" />
+ <project path="vendor/10or" name="OnePlusOSS/android_vendor_qcom_opensource_audio_kernel_sm8250.git" remote="github" revision="oneplus/SM8250_R_11.0" />
+ <project path="kernel/10or/G" name="PixelExperience-Devices/kernel_oneplus_sm8250.git" remote="github" revision="twelve-wip" />
+ 
+</manifest>
